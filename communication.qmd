@@ -7,21 +7,12 @@ source("_common.R")
 
 ## Introduction
 
-In @sec-exploratory-data-analysis, you learned how to use plots as tools for *exploration*.
-When you make exploratory plots, you know---even before looking---which variables the plot will display.
-You made each plot for a purpose, could quickly look at it, and then move on to the next plot.
-In the course of most analyses, you'll produce tens or hundreds of plots, most of which are immediately thrown away.
+In Chapter 10, plots were used mainly for **exploratory analysis**, where the goal was to quickly examine relationships between variables. During this stage, many plots are created for specific questions and are often discarded after inspection.
 
-Now that you understand your data, you need to *communicate* your understanding to others.
-Your audience will likely not share your background knowledge and will not be deeply invested in the data.
-To help others quickly build up a good mental model of the data, you will need to invest considerable effort in making your plots as self-explanatory as possible.
-In this chapter, you'll learn some of the tools that ggplot2 provides to do so.
+However, once you understand the data, the focus shifts to **communicating insights to others**. Since your audience may not share the same background knowledge, plots need to be **clear, informative, and self-explanatory**. This chapter introduces tools in **ggplot2** that help improve the clarity and presentation of visualizations.
 
-This chapter focuses on the tools you need to create good graphics.
-We assume that you know what you want, and just need to know how to do it.
-For that reason, we highly recommend pairing this chapter with a good general visualization book.
-We particularly like [The Truthful Art](https://www.amazon.com/gp/product/0321934075/), by Albert Cairo.
-It doesn't teach the mechanics of creating visualizations, but instead focuses on what you need to think about in order to create effective graphics.
+The chapter focuses on **how to create effective graphics**, assuming that you already know what you want to show. It is recommended to combine these technical skills with visualization principles from books like *The Truthful Art* by Albert Cairo, which explains how to design meaningful and effective visualizations.
+
 
 ### Prerequisites
 
